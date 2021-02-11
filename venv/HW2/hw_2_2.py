@@ -20,8 +20,12 @@ for key,i in enumerate(a):
         b = i
     if(b.isdigit() == True ):
         if (len(b) == 1):
-            print('"' + c + '0' + b + '"', end=' ')
+            msg = f'"{c}0{b}"'
+            print(msg, end=' ')
+            #print('"' + c + '0' + b + '"', end=' ')
         else:
-            print('"' + c + b + '"', end=' ')
+            msg=f'"{c}{b}"'
+            print(msg, end=' ')
+            #print('"' + c + b + '"', end=' ')
     else:
         print(b, end=' ')
