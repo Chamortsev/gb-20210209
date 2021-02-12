@@ -6,5 +6,5 @@ for key, i in enumerate(a):
 #    print('Привет, ' + name[0].title() + '!')
 #   msg='Привет %s !' % (name[0].title())
 #   msg='Привет {n} !'.format(n=name[0].title())
-    msg = f'Привет {name[0].title()} !'
+    msg = f'Привет {name[0].title()}!'
     print(msg)
